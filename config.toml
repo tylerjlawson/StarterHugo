@@ -1,0 +1,5 @@
+baseURL = "http://example.com"
+languageCode = "en-us"
+title = "Hugo Starter"
+description = "My Starter Hugo Project"
+theme = "marketplace"

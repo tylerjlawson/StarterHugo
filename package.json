@@ -1,0 +1,22 @@
+{
+  "name": "nocrochet",
+  "version": "1.0.0",
+  "description": "Starter Hugo site",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "prettier": "^2.1.1"
+  },
+  "scripts": {
+    "start": "hugo server"
+  },
+  "author": "tylerjlawson",
+  "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "prettier-plugin-go-template": "0.0.11-beta"
+  }
+}

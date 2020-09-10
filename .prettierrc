@@ -1,0 +1,20 @@
+{
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "traillingComma": "all",
+    "bracketSpacing": false,
+    "proseWrap": "always",
+    "jsxBracketSameLine": false,
+
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "parser": "go-template"
+            }
+        }
+    ]
+}
