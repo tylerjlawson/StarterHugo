@@ -10,6 +10,7 @@
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
     <link rel="stylesheet" href="{{ `styles/normalize.css` | absURL }}">
+    <link rel="stylesheet" href="{{ `styles/typebase.css` | absURL }}">
 	{{ $styles := resources.Get "styles/main.scss"  | toCSS | postCSS (dict "config" "./postcss.config.js")  | fingerprint }}
 	<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 </head>
